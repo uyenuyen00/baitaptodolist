@@ -1,0 +1,138 @@
+*{
+    margin: 0 auto;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    width: 390px;
+}
+
+.form1{
+    margin-top: 50px;
+    display: flex;
+}
+
+#box1{
+    width: 350px;
+    height: 40px;
+    border: 1px solid #cfcfcf;
+    resize: none;
+    font-weight: bold;
+}
+
+.form1 button{
+    height: 40px;
+    width: 40px;
+    background-color: #13E328;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.form1 i{
+    color: white;
+    width: 15px;
+    height: 15px;
+}
+
+.box2{
+    display: inline-block;
+    width: 127px;
+    height: 30px;
+    border: 1px solid #cfcfcf;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-right: 0;
+    background-color: white;
+    font-weight: bold;
+}
+
+.box2 a{
+    color: #5c5c5c;
+}
+
+.form2 {
+    width: 390px;
+    height: 40px;
+    border: 1px solid #cfcfcf;
+    padding: 0;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    position: relative;
+}
+
+.form2 .checkbox{
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    border: 1px solid #cfcfcf;
+
+}
+
+.form2 a{
+    width: 45px;
+    height: 20px;
+    color: black;
+    display: inline-block;
+    position: absolute;
+    top:10px;
+    font-weight: bold;
+}
+
+.box3  {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top:10px;
+    background-color: red;
+    border: red;
+} 
+
+.box4{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 40px;
+    top:10px;
+    background-color: blue;
+    border: blue;
+}
+
+.form2 i{
+    width: 5px;
+    height: 5px;
+    color: white; 
+    position: absolute;
+    right: 46px;
+    top: -6px;
+}
+
+.form1 #box1:hover{
+    border: 2px solid blue;
+}
+.form1 button:hover{
+    border: 2px solid blue;
+}
+
+.box2:hover{
+    border: 2px solid blue;
+}
+
+.form2:hover{
+    border: 2px solid blue;
+}
+
+.box3:hover{
+    border: 2px solid black;
+}
+
+.box4:hover{
+    border: 2px solid black;
+}
+
+
+
+
+
